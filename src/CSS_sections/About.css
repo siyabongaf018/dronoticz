@@ -1,0 +1,44 @@
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    color:var(--color-secondary);
+}
+.about__droneImage{
+    width:48%;
+
+}
+.about__droneImage img{
+    width:100%;
+    height: 40rem;
+
+}
+.about__content{
+    width:48%;
+    justify-content: center;
+    padding: 2%;
+    
+}
+.about__content h2{
+    text-align: center;
+}
+.about__content hr{
+    height: 5px;
+    width: 50px;
+    margin: 30px auto 55px ;
+    background-color:var(--color-secondary);
+}
+
+@media screen and (max-width: 768px) {
+    .about__droneImage, .about__content {
+      max-width: 100%;
+    }
+  
+    .about__droneImage, .about__content {
+      padding: 1rem;
+    }
+    
+    .about__droneImage img {
+      height: auto;
+      max-height: none;
+    }
+  }
