@@ -34,7 +34,7 @@ function App() {
   
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 65, 
+                top: targetElement.offsetTop - 20, 
                 behavior: 'smooth'
             });
         }

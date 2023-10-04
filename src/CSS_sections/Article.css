@@ -6,6 +6,10 @@ background-color: var(--color-backdrop);
 text-align: center;
 }
 
+#article h1{
+  font-size: 32px ;
+}
+
 .article__card{
     display: flex;
     flex-wrap: wrap;
